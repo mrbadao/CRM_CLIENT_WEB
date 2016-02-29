@@ -9,6 +9,7 @@ function objectCRM() {
 	this.init = function () {
 		that.initLayout({pattern: "3W"});
 		this.initToolbar();
+		this.initFacebookAccountTree(this.dhxLayout.cells("a"));
 	};
 
 	this.initLayout = function (screenType) {
@@ -20,6 +21,8 @@ function objectCRM() {
 		this.dhxLayout.setSeparatorSize(1);
 		this.dhxLayout.cells("a").setText("<i class='fa fa-facebook-official'></i> facebook");
 		this.dhxLayout.cells("a").setWidth(350);
+		this.dhxLayout.cells("a").attachTree();
+
 		this.dhxLayout.cells("c").setText("Page");
 		this.dhxLayout.cells("c").setWidth(350);
 	};
@@ -29,10 +32,13 @@ function objectCRM() {
 		this.toolbar.loadStruct("templates/NaviToolbar.json", function () {
 		});
 		this.toolbar.setIconSize(24);
-		this.toolbar.setFontSize("15px");
 	};
 
-	this.initFacebookAccountTree = function () {
-
+	this.initFacebookAccountTree = function (dhxLayoutCell) {
+		this.accountTree = dhxLayoutCell.attachTree();
+		this.accountTree.setIconPath("imgs/icon/tree/");
+		this.accountTree.enableTreeLines(true);
+		this.accountTree.load("templates/tree.json", function () {
+		}, "json");
 	};
 }

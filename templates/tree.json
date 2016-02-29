@@ -1,0 +1,30 @@
+{
+	"id": 0,
+	"text": "Root",
+	"img0": "folderOpen.gif",
+	"item": [
+		{
+			"id": 1,
+			"text": "first",
+			"img0": "folderOpen.gif",
+		},
+		{
+			"id": 2,
+			"text": "middle",
+			"img0": "folderOpen.gif",
+			"child": "1",
+			"item": [
+				{
+					"id": "21",
+					"text": "child",
+					"img0": "leaf.gif"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"text": "last",
+			"img0": "folderOpen.gif",
+		}
+	]
+}
