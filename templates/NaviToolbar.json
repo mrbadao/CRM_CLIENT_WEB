@@ -1,0 +1,30 @@
+[
+	{
+		"id": "new",
+		"type": "buttonSelect",
+		"text": "<i class='fa fa-users'></i>  Hiếu Nguyễn",
+		"maxopen": "6",
+		"openall": "true",
+		"renderselect": "true",
+		"options": [
+			{
+				"id": "setting",
+				"type": "button",
+				"text": "Settings"
+			},
+			{
+				"id": "logout",
+				"type": "button",
+				"text": "Logout"
+			}
+		]
+	},
+	{
+		"type": "separator"
+	},
+	{
+		"id": "info",
+		"type": "text",
+		"text": "dhtmlxToolbar Demo"
+	}
+]

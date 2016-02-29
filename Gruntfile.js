@@ -7,7 +7,8 @@ module.exports = function (grunt) {
 
 	var CSS_CRM_BUILD_LIST = [
 		'css/reset.css',
-		'css/dhtmlx.css'
+		'css/dhtmlx.css',
+		'css/font-awesome/css/font-awesome.min.css'
 	];
 
 	grunt.initConfig({
