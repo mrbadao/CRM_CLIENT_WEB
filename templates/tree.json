@@ -1,30 +1,60 @@
 {
 	"id": 0,
-	"text": "Root",
-	"img0": "folderOpen.gif",
 	"item": [
 		{
-			"id": 1,
-			"text": "first",
-			"img0": "folderOpen.gif",
-		},
-		{
-			"id": 2,
-			"text": "middle",
-			"img0": "folderOpen.gif",
-			"child": "1",
+			"id": "fb_tree",
+			"open": 1,
+			"text": "Quản lý",
+			"im0": "facebook.png",
+			"im1": "facebook.png",
+			"im2": "facebook.png",
+			"child": "3",
 			"item": [
 				{
-					"id": "21",
-					"text": "child",
-					"img0": "leaf.gif"
+					"id": "u_1",
+					"text": "Hiếu Nguyễn",
+					"im0": "user.png",
+					"im1": "user.png",
+					"im2": "user.png",
+					"child": "2",
+					"item": [
+						{
+							"id": "u_1_g",
+							"text": "Hội nhóm",
+							"im0": "group.png",
+							"im1": "group.png",
+							"im2": "group.png",
+							"child": "1",
+							"item": [
+								{
+									"id": "u_1_g_1",
+									"text": "Uit Fuker",
+									"im0": "lock_closed.png"
+								},
+								{
+									"id": "u_1_g_2",
+									"text": "Google Adsense Việt Nam Open",
+									"im0": "lock_opened.png"
+								}
+							]
+						},
+						{
+							"id": "u_1_p",
+							"text": "Trang",
+							"im0": "page.png",
+							"im1": "page.png",
+							"im2": "page.png",
+							"item": [
+								{
+									"id": "u_1_p_1",
+									"text": "Hội những người đỡ không nổi những người khó đỡ",
+									"im0": "page_entry.png"
+								}
+							]
+						}
+					]
 				}
 			]
-		},
-		{
-			"id": 3,
-			"text": "last",
-			"img0": "folderOpen.gif",
 		}
 	]
 }

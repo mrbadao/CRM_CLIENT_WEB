@@ -9,7 +9,7 @@ function objectCRM() {
 	this.init = function () {
 		that.initLayout({pattern: "3W"});
 		this.initToolbar();
-		this.initFacebookAccountTree(this.dhxLayout.cells("a"));
+		this.initFacebookAccountTree();
 	};
 
 	this.initLayout = function (screenType) {
@@ -34,10 +34,10 @@ function objectCRM() {
 		this.toolbar.setIconSize(24);
 	};
 
-	this.initFacebookAccountTree = function (dhxLayoutCell) {
-		this.accountTree = dhxLayoutCell.attachTree();
-		this.accountTree.setIconPath("imgs/icon/tree/");
-		this.accountTree.enableTreeLines(true);
+	this.initFacebookAccountTree = function () {
+
+		this.accountTree = this.dhxLayout.cells("a").attachTree();
+		this.accountTree.setImagePath("imgs/icon/tree/");
 		this.accountTree.load("templates/tree.json", function () {
 		}, "json");
 	};
