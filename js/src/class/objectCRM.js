@@ -20,9 +20,9 @@ function objectCRM() {
 
 		this.dhxLayout = new dhtmlXLayoutObject(document.body, screenType['pattern']);
 		this.dhxLayout.setSeparatorSize(1);
-		this.dhxLayout.cells("a").setText("<i class='fa fa-facebook-official'></i> facebook");
+		this.dhxLayout.cells("a").hideHeader();
 		this.dhxLayout.cells("a").setWidth(350);
-		this.dhxLayout.cells("a").attachTree();
+		this.dhxLayout.cells("a").attachLayout();
 
 		this.dhxLayout.cells("b").setText("Post");
 		this.dhxLayout.cells("b").hideHeader();
