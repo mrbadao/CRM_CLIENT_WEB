@@ -10,6 +10,10 @@ function crmMainTab(dhxLayoutObject) {
 
 	this.init = function () {
 		this.tabToolBar = dhxLayoutObject.attachToolbar();
+		this.tabToolBar.loadStruct("templates/PostListTabToolbar.json", function () {
+		});
+		this.tabToolBar.setIconSize(24);
+
 		this.tabBar = dhxLayoutObject.attachTabbar({
 			align: "left",
 			mode: "top",
