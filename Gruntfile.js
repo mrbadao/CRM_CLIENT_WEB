@@ -2,6 +2,8 @@ module.exports = function (grunt) {
 	var JS_CRM_BUILD_LIST = [
 		'lib/jquery/jquery-2.1.3.min.js',
 		'lib/dhtmlx.js',
+		'js/src/config/crm.config.js',
+		'js/src/components/crmMainTab.js',
 		'js/src/class/objectCRM.js'
 	];
 
