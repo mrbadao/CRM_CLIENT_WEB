@@ -11,40 +11,327 @@
 			"child": "1",
 			"item": [
 				{
-					"id": "u_1",
+					"id": "u_1_e",
 					"text": "Sự kiện",
+					"child": 0,
+					"open": 0,
 					"im0": "event.png",
 					"im1": "event.png",
 					"im2": "event.png",
-					"open":1,
-					"child": "1",
 					"item": [
 						{
-							"id": "u_1_g",
-							"text": "Năm 2016",
+							"id": "u_1_e_y_2017",
+							"text": "2017",
+							"child": 0,
+							"open": 0,
 							"im0": "folderOpen.gif",
 							"im1": "folderOpen.gif",
 							"im2": "folderOpen.gif",
-							"child": "1",
 							"item": [
 								{
-									"id": "u_1_g_1",
+									"id": "u_1_e_y_2017_m_2",
 									"text": "Tháng 2",
-									"im0": "folderOpen_month.gif",
-									"im1": "folderOpen_month.gif",
-									"im2": "folderOpen_month.gif"
-									"item":[]
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2017_m_2_ev_13",
+											"text": "13",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
 								},
 								{
-									"id": "u_1_g_2",
+									"id": "u_1_e_y_2017_m_1",
 									"text": "Tháng 1",
-									"im0": "folderOpen_month.gif",
-									"im1": "folderOpen_month.gif",
-									"im2": "folderOpen_month.gif"
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2017_m_1_ev_12",
+											"text": "12",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
 								}
-							]
+							],
+							"userdata": []
+						},
+						{
+							"id": "u_1_e_y_2016",
+							"text": "2016",
+							"child": 0,
+							"open": 0,
+							"im0": "folderOpen.gif",
+							"im1": "folderOpen.gif",
+							"im2": "folderOpen.gif",
+							"item": [
+								{
+									"id": "u_1_e_y_2016_m_12",
+									"text": "Tháng 12",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_12_ev_11",
+											"text": "11",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_11",
+									"text": "Tháng 11",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_11_ev_10",
+											"text": "10",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_10",
+									"text": "Tháng 10",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_10_ev_9",
+											"text": "9",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_9",
+									"text": "Tháng 9",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_9_ev_7",
+											"text": "7",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_8",
+									"text": "Tháng 8",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_8_ev_6",
+											"text": "6",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_7",
+									"text": "Tháng 7",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_7_ev_5",
+											"text": "5",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_6",
+									"text": "Tháng 6",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_6_ev_4",
+											"text": "4",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_5",
+									"text": "Tháng 5",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_5_ev_3",
+											"text": "3",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_4",
+									"text": "Tháng 4",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_4_ev_2",
+											"text": "2",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								},
+								{
+									"id": "u_1_e_y_2016_m_3",
+									"text": "Tháng 3",
+									"child": 0,
+									"open": 0,
+									"im0": "folderOpen.gif",
+									"im1": "folderOpen.gif",
+									"im2": "folderOpen.gif",
+									"item": [
+										{
+											"id": "u_1_e_y_2016_m_3_ev_1",
+											"text": "1",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										},
+										{
+											"id": "u_1_e_y_2016_m_3_ev_8",
+											"text": "8",
+											"child": 0,
+											"open": 0,
+											"im0": "folderOpen.gif",
+											"im1": "folderOpen.gif",
+											"im2": "folderOpen.gif",
+											"item": [],
+											"userdata": []
+										}
+									],
+									"userdata": []
+								}
+							],
+							"userdata": []
 						}
-					]
+					],
+					"userdata": []
 				}
 			]
 		}

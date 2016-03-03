@@ -18,7 +18,7 @@ function crmMainTab(dhxLayoutObject) {
 			align: "left",
 			mode: "top",
 			tabs: [
-				{id: "postsList", text: "Danh sách bài viết", active: true},
+				{id: "postsList", text: "Thông tin sự kiện", active: true},
 				{id: "fbPagesList", text: "Danh sách trang"},
 				{id: "fbGroupsList", text: "Danh sách Nhóm"}
 			]

@@ -2,7 +2,7 @@
 	{
 		"id": "add",
 		"type": "button",
-		"text": "<i class='fa fa-plus'></i>  Thêm bài viết"
+		"text": "<i class='fa fa-plus'></i>  Thêm sự kiện"
 	},
 	{
 		"type": "separator"
@@ -10,7 +10,7 @@
 	{
 		"id": "edit",
 		"type": "button",
-		"text": "<i class='fa fa-edit'></i>  Chỉnh sửa bài viết"
+		"text": "<i class='fa fa-edit'></i>  Chỉnh sửa sự kiện"
 	},
 	{
 		"type": "separator"
@@ -19,7 +19,7 @@
 		"id": "delete",
 		"type": "button",
 		"position": "right",
-		"text": "<i class='fa fa-trash'></i> Xóa bài viết"
+		"text": "<i class='fa fa-trash'></i> Xóa sự kiện"
 	},
 	{
 		"type": "separator"

@@ -29,11 +29,19 @@ function objectCRM(parentNode) {
 	};
 
 	this.initFacebookAccountTree = function () {
-		this.accountTree = this.dhxLayout.cells("a").attachTree();
+		this.dhxLeftColumnsLayout = this.dhxLayout.cells("a").attachLayout({
+			pattern: "2E",
+			cells: [
+				{id: "a", text: "<i class='fa fa-search'></i> Tìm kiếm", height: 300},
+				{id: "b", text: "<i class='fa fa-calendar'></i> Quản lý sự kiện"}
+			]
+		});
+
+		this.accountTree = this.dhxLeftColumnsLayout.cells("b").attachTree();
 		this.accountTree.setImagePath("imgs/icon/tree/");
-		this.accountTree.load("templates/tree.json", function () {
+		this.accountTree.load("http://localhost:8080/api/gmail/events/get-event-tree", function () {
 		}, "json");
-	};
+	}
 
 	this.initColumns = function () {
 		this.mainTab = new crmMainTab(this.dhxLayout.cells("b"));
